@@ -33,7 +33,7 @@ pipeline {
         success {
             echo 'Build completed successfully!'
         }
-        failure i{
+        failure {
             echo 'Build failed. Check the console logs.'
         }
     }

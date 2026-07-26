@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        // Ensure this matches the Maven name configured in Global Tool Configuration
+        // Ensure this matches the Maven name configured in Global Tool Configuration of global settings
         maven 'scope-maven' 
     }
     
